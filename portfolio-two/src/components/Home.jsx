@@ -14,11 +14,11 @@ export default function Home () {
                 <div className="welcomeContent">
                     
                     <div className="welcomeText">
-                        <h1 className="welcomeTo">WELCOME TO</h1>
-                        <h2 className="roosterGrin">Rooster Grin</h2>
+                        <h1 className="welcomeTo">Jordan Wolter</h1>
+                        <h2 className="roosterGrin">Software Developer</h2>
                     </div>
                     <div className="welcomeButtonBox">
-                        <a href='https://www.roostergrin.com/' target='_blank' rel="noopener noreferrer"><button className="welcomeButton">Button Button</button></a>
+                        <a href='https://www.roostergrin.com/' target='_blank' rel="noopener noreferrer"><button className="welcomeButton">Resume</button></a>
                     </div>
                 </div>
             </div>
@@ -34,6 +34,8 @@ export default function Home () {
                 </div>
             </div>
             <div className="sectionTwoUpdate">
+                <div className="rightSectionTwoUpdate">
+                </div>
                 <div className="leftSectionTwoUpdate">
                     <div className="leftContentTwoUpdate">
                         <h1 className="leftSectionHeaderTwoUpdate">Instrument Store</h1>
@@ -41,9 +43,22 @@ export default function Home () {
                         <a className='leftSectionButtonTwoUpdate' href="https://filmfolio.netlify.app/" target="_blank" rel="noopener noreferrer"> &gt; (Website Under Construction)</a>
                     </div>
                 </div>
-                <div className="rightSectionTwoUpdate">
+                
+            </div>
+            <div className="sectionThreeUpdate">
+                <div className="leftSectionThreeUpdate">
+                    <div className="leftContentThreeUpdate">
+                        <h1 className="leftSectionHeaderThreeUpdate">Wolter Finance</h1>
+                        <p className="leftSectionBodyThreeUpdate">Wolter Finance is an app used to stay up to date on stock market information. This app utilizes a third-party API from Financial Modeling Prep. With Wolter Finance, users will be greeted with new stories, top market price and percent changes, daily sector report all updating in real time through setInterval. Users can also See daily activity of the highest gainers and loser stocks, along with a search feature that will display in depth detail of said stock along with new stories from the past week. All of this was done through axios calls using Javascript, React, and CSS.</p>
+                        <a className='leftSectionButtonThreeUpdate' href="https://filmfolio.netlify.app/" target="_blank" rel="noopener noreferrer"> &gt; WolterFinance Website</a>
+                    </div>
+                </div>
+                <div className="rightSectionThreeUpdate">
                 </div>
             </div>
+                
+                
+            
             <div className="sectionTwo">
                 <div className="leftSectionTwo">
                     <div className="leftContentTwo">
@@ -111,7 +126,7 @@ export default function Home () {
                 <div className="rightSectionFive">
                         <Carousel />
                 </div>
-            </div>
+            </div> 
             <div className='footer'>
                 <div className='footerContent'>
                     <h4>Follow Us:</h4>
