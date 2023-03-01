@@ -25,9 +25,9 @@ export default function Home () {
             <div className="sectionOne">
                 <div className="leftSection">
                     <div className="leftContent">
-                        <h1 className="leftSectionHeader">LOREM IPSUM</h1>
-                        <p className="leftSectionBody">Lorem ipsum dolor sit amet, et felis intger. Cras ac, duis nisl magna est sociis, neque in odio vel, sit lobortis erat. Fugit quam, ut pede ut ante, in viverra eros dictum nisl ligula, lacus est vehicula donec. Quam in ac quam. Duis et, non arcu imperdiet sem tellus suspendisse. Condimentum non aliquet sed, quique risus vitae semper duis feugiat.</p>
-                        <a className='leftSectionButton' href="https://www.roostergrin.com/about" target="_blank" rel="noopener noreferrer"> &gt; Lorem Ipsum</a>
+                        <h1 className="leftSectionHeader">FilmFolio</h1>
+                        <p className="leftSectionBody">FilmFolio was a passion project of mine based on my love for movies. Starting with the backend, I had created a database using Django. With three models (Users, Movies, and Reviews) I was able to input all the necessary data to be rendered on the front end. Creating the correct URL's and Views was an important part in getting Full CRUD working on the front-end and back-end. Along with setting up my foreign keys and serializers correctly so the data on the back-end could be accessed correctly. Using react, I created a new react-app and started to render the data in my database through axios calls.  Once the data had been rendered I was able to create functional components to get functionality out of my Search feature, movie details, and adding / deleting to a watchlist.  This is a full CRUD application. The reviews section is able to Create a review, Delete a review, Update a review, and of course Read a review. I had also tried a new technology called firebase for getting Auth up and running. Styling was done through CSS and Tailwind.</p>
+                        <a className='leftSectionButton' href="https://filmfolio.netlify.app/" target="_blank" rel="noopener noreferrer"> &gt; FilmFolio Website</a>
                     </div>
                 </div>
                 <div className="rightSection">
