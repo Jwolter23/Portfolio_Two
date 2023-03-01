@@ -262,6 +262,86 @@
   font-family: 'Manrope', sans-serif;
 }
 
+/* section 4 updated */
+
+
+.sectionFourUpdate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 60vh;
+}
+
+.rightSectionFourUpdate {
+  background-image: url(../Assets/MatrixTrivia.png);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.leftSectionFourUpdate{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.leftContentFourUpdate{
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5em;
+}
+
+.leftSectionButtonFourUpdate{
+  color: #7d4497;
+  text-decoration: none;
+  border: none;
+  padding: 0.5em;
+  width: 15em;
+  transition: all .2s ease-in-out;
+  
+}
+
+.leftSectionButtonFourUpdate:hover{
+  cursor: pointer;
+  color: #ac5fd1;
+  transform: scale(1.1);
+}
+
+.leftSectionHeaderFourUpdate{
+  height: auto;
+  margin: 0;
+  margin-bottom: 0.1em;
+  font-size: 3em;
+  color: #7d4497;
+  font-family: 'Playfair Display', serif;
+}
+
+.leftSectionBodyFourUpdate{
+  font-family: 'Manrope', sans-serif;
+}
+
+
+
+/*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
 
 
 /* section 2 */

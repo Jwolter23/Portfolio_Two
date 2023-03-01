@@ -56,8 +56,22 @@ export default function Home () {
                 <div className="rightSectionThreeUpdate">
                 </div>
             </div>
+            <div className="sectionFourUpdate">
+                <div className="rightSectionFourUpdate">
+                </div>
+                <div className="leftSectionFourUpdate">
+                    <div className="leftContentFourUpdate">
+                        <h1 className="leftSectionHeaderFourUpdate">Matrix Trivia</h1>
+                        <p className="leftSectionBodyFourUpdate">Instrument Store was our first group project, created by me and three other students. Our website acts as a storefront where users can browse the selection of Instruments we provided. Instrument Store utilizes the PERN stack PostgreSQL, Express, React, and Node.js. As the team lead on this project planning using tools like Wireframe, Trello, Lucidchart, and Agile methodologies was extremley important. We began by creating a database in PostgreSQL and associated / seeded these models through Sequelize. Once our back-end was created we created a React-app and set up Controllers, Routes, and Middleware. We then rendered our data through axios calls. After having everything set up we were able to get full CRUD on our comment model which can only be accessed when logged in. Our final goal was to get Auth working which we were able to successfully implement. To start, enter our deployed site, create an account, login, and you will be able to use our comment section.</p>
+                        <a className='leftSectionButtonFourUpdate' href="https://filmfolio.netlify.app/" target="_blank" rel="noopener noreferrer"> &gt; (Website Under Construction)</a>
+                    </div>
+                </div>
                 
-                
+            </div>    
+
+
+
+
             
             <div className="sectionTwo">
                 <div className="leftSectionTwo">
