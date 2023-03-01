@@ -146,6 +146,63 @@
   font-family: 'Manrope', sans-serif;
 }
 
+/* section 2 update*/
+.sectionTwoUpdate {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 60vh;
+}
+
+.rightSectionTwoUpdate {
+  background-image: url(../Assets/Instrument.jpg);
+  background-size: cover;
+  background-position: center;
+
+}
+
+.leftSectionTwoUpdate{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.leftContentTwoUpdate{
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 1.5em;
+}
+
+.leftSectionButtonTwoUpdate{
+  color: #7d4497;
+  text-decoration: none;
+  border: none;
+  padding: 0.5em;
+  width: 15em;
+  transition: all .2s ease-in-out;
+  
+}
+
+.leftSectionButtonTwoUpdate:hover{
+  cursor: pointer;
+  color: #ac5fd1;
+  transform: scale(1.1);
+}
+
+.leftSectionHeaderTwoUpdate{
+  height: auto;
+  margin: 0;
+  margin-bottom: 0.1em;
+  font-size: 3em;
+  color: #7d4497;
+  font-family: 'Playfair Display', serif;
+}
+
+.leftSectionBodyTwoUpdate{
+  font-family: 'Manrope', sans-serif;
+}
+
 /* section 2 */
 
 .sectionTwo {
