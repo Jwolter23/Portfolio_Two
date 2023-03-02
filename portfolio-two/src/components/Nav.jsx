@@ -1,10 +1,10 @@
-const Nav = () => {
+const Nav = ({handleClick3, handleClick2, handleClick }) => {
 
     return (
         <div className='navBar'>
-            <button className="aboutMeButton">About Me</button>
-            <button className="projectsButton">Projects</button>
-            <button className="connectButton">Connect</button>
+            <button onClick={handleClick}className="aboutMeButton">About Me</button>
+            <button onClick={handleClick2}className="projectsButton">Projects</button>
+            <button onClick={handleClick3}className="connectButton">Connect</button>
             <button className="resumeButton">Resume</button>
         </div>
     )

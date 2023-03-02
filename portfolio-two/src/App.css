@@ -100,6 +100,24 @@
 
 }
 
+/* about me title*/
+
+.aboutMeDiv{
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250,251,251,255);
+}
+
+.aboutMeTitle{
+  font-size: 5em;
+  color: #7d4497;
+  font-family: 'Playfair Display', serif;
+}
+
+
+
 /* about me */
 
 .sectionAbout {
@@ -170,7 +188,21 @@ align-items: center;
   font-family: 'Manrope', sans-serif;
 }
 
+/* project div*/
 
+.projectDiv{
+  height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250,251,251,255);
+}
+
+.projectTitle{
+  font-size: 5em;
+  color: #7d4497;
+  font-family: 'Playfair Display', serif;
+}
 
 
 /* section One */
@@ -421,23 +453,6 @@ align-items: center;
 .leftSectionBodyFourUpdate{
   font-family: 'Manrope', sans-serif;
 }
-
-
-/* project div*/
-.projectDiv{
-  height: 35vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(250,251,251,255);
-}
-
-.projectTitle{
-  font-size: 5em;
-  color: #7d4497;
-  font-family: 'Playfair Display', serif;
-}
-
 
 /* footer */
 

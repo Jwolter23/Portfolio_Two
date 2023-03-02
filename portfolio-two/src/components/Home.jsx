@@ -1,17 +1,22 @@
 // import ReactStars from 'react-stars'
 import React from 'react'
 import Nav from './Nav'
-import Carousel from './carousel'
 
-export default function Home () {
+
+export default function Home ({ myRef, myRef1, myRef2, handleClick3, handleClick2, handleClick}) {
 
 
     return(
         <div className="wholeScreen">
             <div className="welcomeScreen">
-                    <div className="roosterLogoBox">
-                        <Nav />
+                <div className="roosterLogoBox">
+                    <div className='navBar'>
+                        <button onClick={handleClick}className="aboutMeButton">About Me</button>
+                        <button onClick={handleClick2}className="projectsButton">Projects</button>
+                        <button onClick={handleClick3}className="connectButton">Connect</button>
+                        <button className="resumeButton">Resume</button>
                     </div>
+                </div>
                 <div className="welcomeContent">
                     
                     <div className="welcomeText">
@@ -23,8 +28,8 @@ export default function Home () {
                     </div>
                 </div>
             </div>
-            <div className='projectDiv'>
-                <h1 className='projectTitle'>About Me</h1>
+            <div className='aboutMeDiv'>
+                <h1 ref={myRef}className='aboutMeTitle'>About Me</h1>
             </div>
             <div className="sectionAbout">
                 <div className="leftSectionAbout">
@@ -39,7 +44,7 @@ export default function Home () {
                 </div>
             </div>
             <div className='projectDiv'>
-                <h1 className='projectTitle'>Projects</h1>
+                <h1 ref={myRef1}className='projectTitle'>Projects</h1>
             </div>
             <div className="sectionOne">
                 <div className="leftSection">
@@ -90,7 +95,7 @@ export default function Home () {
 
             <div className='footer'>
                 <div className='footerContent'>
-                    <h4>Connect With Me:</h4>
+                    <h4 ref={myRef2}>Connect With Me:</h4>
                     <div className='socialsContainer'>
                     <a href='https://twitter.com/roostergrin?lang=en' target='_blank' rel="noopener noreferrer"><div className='instagram'></div></a>
                     <a href='https://www.facebook.com/RoosterGrin/' target='_blank' rel="noopener noreferrer"><div className='facebook'></div></a>
