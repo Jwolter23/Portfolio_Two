@@ -95,13 +95,15 @@
   grid-template-columns: 1fr 1.2fr;
   height: 60vh;
   padding: 0.5em 0em;
+  background-color: rgba(250,251,251,255);
 }
 
 .rightSection {
   background-image: url(../Assets/FilmFolio.png);
   background-size: cover;
   background-position: left;
-  
+  height: 30em;
+  width: 48em;
 
 }
 
@@ -154,13 +156,16 @@
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   height: 60vh;
-  padding: 0.5em 0em;
+  padding: 0.5em 0.3em;
+  background-color: rgba(250,251,251,255);
 }
 
 .rightSectionTwoUpdate {
   background-image: url(../Assets/Instrument.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: left;
+  height: 30em;
+  width: 48em;
 
 }
 
@@ -213,13 +218,16 @@
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   height: 60vh;
-  padding: 0.5em 0em;
+  padding: 0.5em 0.3em;
+  background-color: rgba(250,251,251,255);
 }
 
 .rightSectionThreeUpdate {
   background-image: url(../Assets/WolterFinance.png);
   background-size: cover;
   background-position: left;
+  height: 30em;
+  width: 48em;
 
 }
 
@@ -273,13 +281,16 @@
   display: grid;
   grid-template-columns: 1.2fr 1fr;
   height: 60vh;
-  padding: 0.5em 0em;
+  padding: 0.5em 0.3em;
+  background-color: rgba(250,251,251,255);
 }
 
 .rightSectionFourUpdate {
   background-image: url(../Assets/MatrixTrivia.png);
   background-size: cover;
   background-position: center;
+  height: 30em;
+  width: 48em;
 
 }
 
@@ -327,385 +338,21 @@
 }
 
 
-
-/*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*/
-
-
-/* section 2 */
-
-.sectionTwo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: 'image image';
-  height: 80vh;
-  background-image: url(../Assets/banner-1.jpg);
-  background-size: cover;
-  background-position: center;
-}
-
-.leftSectionTwo {
+/* project div*/
+.projectDiv{
+  height: 40vh;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-
-.leftSectionHeaderTwo {
-  color: #7d4497;
-  font-size: 3em;
-  font-family: 'Playfair Display', serif;
-}
-
-.leftSectionButtonTwo{
-  background-color: #f87119;
-  color: white;
-  border: none;
-  padding: 1.1em;
-  
-}
-
-.leftSectionButtonTwo{
-  transition: box-shadow 0.3s ease-in-out;
-  
-}
-
-.leftSectionButtonTwo:hover {
-  cursor: pointer;
-  color: black;
-  box-shadow: -10px 5px 5px #f87119;
-}
-
-/* section3 */
-
-.sectionThree {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 60vh;
-}
-
-.leftSectionThree{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.leftContentThree{
-  width: 30em;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 1.5em;
-}
-
-.leftSectionBodyThree{
-  font-family: 'Manrope', sans-serif;
-}
-
-.leftSectionButtonThree{
-  color: #7d4497;
-  text-decoration: none;
-  border: none;
-  padding: 0.5em;
-  width: 8em;
-  transition: all .2s ease-in-out;
-}
-
-.leftSectionButtonThree:hover{
-  cursor: pointer;
-  color: #ac5fd1;
-  transform: scale(1.1);
-}
-
-.leftSectionHeaderThree{
-  margin-bottom: -0.1em;
-  font-family: 'Playfair Display', serif;
-  
-}
-
-.rightSectionThree {
   background-color: rgba(250,251,251,255);
-  display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-          'item1 item2'
-          'item3 item4';
-  }
-
-  .item1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-area: item1;
-    
-  }
-  .svg1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5em;
-    width: 5em;
-    padding: 1em;
-    border-radius: 50%;
-    background: url(../Assets/home-expertise.svg) no-repeat center center;
-    background-size: 4em;
-    border: 1px solid purple;
-    transition: all .2s ease-in-out;
-  }
-
-  .svg1:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: #7d4497
-  }
-
-  .item2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-area: item2;
-
-  }
-  .svg2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5em;
-    width: 5em;
-    padding: 1em;
-    border-radius: 50%;
-    background: url(../Assets/home-hygiene.svg) no-repeat center center;
-    background-size: 4em;
-    border: 1px solid purple;
-    transition: all .2s ease-in-out;
-  }
-
-  .svg2:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: #7d4497
-  }
-
-  .item3{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-area: item3;
-    
-  }
-  .svg3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5em;
-    width: 5em;
-    padding: 1em;
-    border-radius: 50%;
-    background: url(../Assets/home-lab.svg) no-repeat center center;
-    background-size: 4em;
-    border: 1px solid purple;
-    transition: all .2s ease-in-out;
-  }
-
-  .svg3:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: #7d4497
-  }
-
-  .item4{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    grid-area: item4;
-  
-  }
-  .svg4{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5em;
-    width: 5em;
-    padding: 1em;
-    border-radius: 50%;
-    background: url(../Assets/home-retention.svg) no-repeat center center;
-    background-size: 4em;
-    border: 1px solid purple;
-    transition: all .2s ease-in-out;
-  }
-
-  .svg4:hover{
-    cursor: pointer;
-    transform: scale(1.1);
-    background-color: #7d4497;
-  }
-
-  .text1, .text2, .text3, .text4 {
-    color: black;
-    font-weight: bold;
-    padding: 0.3em;
-    margin-top: 0.3em;
-  }
-
-  /* section 4 */
-
-  .sectionFour{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: 'image image';
-  height: 80vh;
-  background-image: url(../Assets/banner-2.jpg);
-  background-size: cover;
-  background-position: center;
-  }
-
-  .rightSectionFour {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  .rightContentFour{
-    width: 30em;
-  }
-  
-  
-  .rightSectionHeaderFour {
-    color: #7d4497;
-    font-size: 3em;
-    font-family: 'Playfair Display', serif;
-  }
-
-  .rightSectionBodyFour{
-    width: 21em;
-    font-family: 'Manrope', sans-serif;
-  }
-  
-  .rightSectionButtonFour{
-    background-color: #f87119;
-    color: white;
-    border: none;
-    padding: 1.1em;
-    width: 13em;
-    transition: box-shadow 0.3s ease-in-out;
-    
-  }
-
-  .rightSectionButtonFour:hover{
-    cursor: pointer;
-    color: black;
-    box-shadow: 10px 5px 5px #f87119;
-  }
-
-/* Section 5 */
-
-.sectionFive {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  height: 60vh;
 }
 
-.leftSectionFive{
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.leftContentFive{
-  width: 30em;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 1.5em;
-}
-
-.leftSectionHeaderFive{
-  font-size: 2.5em;
-  padding: 0.1em;
-  margin-bottom: -0.02em;
-  font-family: 'Playfair Display', serif;
-}
-
-.rightSectionFive{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-.carousel{
-  width: 35em;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  
-}
-
-.carouselContent{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-
-.carouselAuthor{
+.projectTitle{
+  font-size: 5em;
   color: #7d4497;
   font-family: 'Playfair Display', serif;
-  font-weight: bolder;
-  margin-bottom: -0.5em;
-  
 }
 
-.carouselParagraph{
-  width: 25em;
-  display: inline-block;
-  font-family: 'Manrope', sans-serif;
-  margin-top: -0.5em;
-  margin-bottom: -0.5em;
-}
-
-.buttons{
-  display: flex;
-  width: 20em;
-  justify-content: space-between;
-}
-
-.carouselButtons{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 5em;
-}
-
-.carouselButtons:hover{
-  cursor: pointer;
-  color: #ae58d6;
-}
 
 /* footer */
 
