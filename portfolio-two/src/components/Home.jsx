@@ -1,5 +1,6 @@
 // import ReactStars from 'react-stars'
 import React from 'react'
+import Nav from './Nav'
 import Carousel from './carousel'
 
 export default function Home () {
@@ -9,7 +10,7 @@ export default function Home () {
         <div className="wholeScreen">
             <div className="welcomeScreen">
                     <div className="roosterLogoBox">
-                        <div className='roosterLogo'></div>
+                        <Nav />
                     </div>
                 <div className="welcomeContent">
                     
@@ -18,8 +19,23 @@ export default function Home () {
                         <h2 className="roosterGrin">Software Developer</h2>
                     </div>
                     <div className="welcomeButtonBox">
-                        <a href='https://www.roostergrin.com/' target='_blank' rel="noopener noreferrer"><button className="welcomeButton">Resume</button></a>
+                        <a href='https://drive.google.com/file/d/1QJ3Vgx8vfy3NUdhghuxwlZHX6bB9nISk/view?usp=share_link' target='_blank' rel="noopener noreferrer"><button className="welcomeButton">Resume</button></a>
                     </div>
+                </div>
+            </div>
+            <div className='projectDiv'>
+                <h1 className='projectTitle'>About Me</h1>
+            </div>
+            <div className="sectionAbout">
+                <div className="leftSectionAbout">
+                    <div className="leftContentAbout">
+                        <h1 className="leftSectionHeaderAbout">Who I am</h1>
+                        <p className="leftSectionBodyAbout">I am a sales representative turned Software Developer who brings exceptional communication, problem-solving skills, and a hard work ethic to any team I am on. Being a very result-driven individual motivated by utilizing my Full-stack development and interpersonal skills to break down and solve problems. I excel at working and collaborating with a team while also using my individual skills to solve various issues thrown my way.</p>
+                        <a className='leftSectionButtonAbout' href="https://www.linkedin.com/in/jordan-wolter/" target="_blank" rel="noopener noreferrer"> &gt; Linkedin</a>
+                    </div>
+                </div>
+                <div className="rightSectionAbout">
+                    <div className='aboutMePic'></div>
                 </div>
             </div>
             <div className='projectDiv'>
