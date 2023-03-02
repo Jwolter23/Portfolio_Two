@@ -53,7 +53,7 @@ export default function Home () {
                     <div className="leftContentThreeUpdate">
                         <h1 className="leftSectionHeaderThreeUpdate">Wolter Finance</h1>
                         <p className="leftSectionBodyThreeUpdate">Wolter Finance is an app used to stay up to date on stock market information. This app utilizes a third-party API from Financial Modeling Prep. With Wolter Finance, users will be greeted with new stories, top market price and percent changes, daily sector report all updating in real time through setInterval. Users can also See daily activity of the highest gainers and loser stocks, along with a search feature that will display in depth detail of said stock along with new stories from the past week. All of this was done through axios calls using Javascript, React, and CSS.</p>
-                        <a className='leftSectionButtonThreeUpdate' href="https://filmfolio.netlify.app/" target="_blank" rel="noopener noreferrer"> &gt; WolterFinance Website</a>
+                        <a className='leftSectionButtonThreeUpdate' href="https://wolterfinance.netlify.app/" target="_blank" rel="noopener noreferrer"> &gt; WolterFinance Website</a>
                     </div>
                 </div>
                 <div className="rightSectionThreeUpdate">
@@ -66,7 +66,7 @@ export default function Home () {
                     <div className="leftContentFourUpdate">
                         <h1 className="leftSectionHeaderFourUpdate">Matrix Trivia</h1>
                         <p className="leftSectionBodyFourUpdate">Instrument Store was our first group project, created by me and three other students. Our website acts as a storefront where users can browse the selection of Instruments we provided. Instrument Store utilizes the PERN stack PostgreSQL, Express, React, and Node.js. As the team lead on this project planning using tools like Wireframe, Trello, Lucidchart, and Agile methodologies was extremley important. We began by creating a database in PostgreSQL and associated / seeded these models through Sequelize. Once our back-end was created we created a React-app and set up Controllers, Routes, and Middleware. We then rendered our data through axios calls. After having everything set up we were able to get full CRUD on our comment model which can only be accessed when logged in. Our final goal was to get Auth working which we were able to successfully implement. To start, enter our deployed site, create an account, login, and you will be able to use our comment section.</p>
-                        <a className='leftSectionButtonFourUpdate' href="https://filmfolio.netlify.app/" target="_blank" rel="noopener noreferrer"> &gt; (Website Under Construction)</a>
+                        <a className='leftSectionButtonFourUpdate' href="https://matrix-trivia.surge.sh/" target="_blank" rel="noopener noreferrer"> &gt; Matrix Trivia Website</a>
                     </div>
                 </div>
                 
@@ -74,7 +74,7 @@ export default function Home () {
 
             <div className='footer'>
                 <div className='footerContent'>
-                    <h4>Follow Us:</h4>
+                    <h4>Connect With Me:</h4>
                     <div className='socialsContainer'>
                     <a href='https://twitter.com/roostergrin?lang=en' target='_blank' rel="noopener noreferrer"><div className='instagram'></div></a>
                     <a href='https://www.facebook.com/RoosterGrin/' target='_blank' rel="noopener noreferrer"><div className='facebook'></div></a>
