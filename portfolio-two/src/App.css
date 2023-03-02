@@ -92,14 +92,16 @@
 
 .sectionOne {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   height: 60vh;
+  padding: 0.5em 0em;
 }
 
 .rightSection {
   background-image: url(../Assets/FilmFolio.png);
   background-size: cover;
-  background-position: center;
+  background-position: left;
+  
 
 }
 
@@ -150,14 +152,15 @@
 
 .sectionTwoUpdate {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   height: 60vh;
+  padding: 0.5em 0em;
 }
 
 .rightSectionTwoUpdate {
   background-image: url(../Assets/Instrument.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: right;
 
 }
 
@@ -208,14 +211,15 @@
 
 .sectionThreeUpdate {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   height: 60vh;
+  padding: 0.5em 0em;
 }
 
 .rightSectionThreeUpdate {
   background-image: url(../Assets/WolterFinance.png);
   background-size: cover;
-  background-position: center;
+  background-position: left;
 
 }
 
@@ -267,8 +271,9 @@
 
 .sectionFourUpdate {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1.2fr 1fr;
   height: 60vh;
+  padding: 0.5em 0em;
 }
 
 .rightSectionFourUpdate {

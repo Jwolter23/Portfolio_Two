@@ -73,7 +73,7 @@ export default function Home () {
 
 
             
-            <div className="sectionTwo">
+            {/* <div className="sectionTwo">
                 <div className="leftSectionTwo">
                     <div className="leftContentTwo">
                     <h1 className="leftSectionHeaderTwo">LOREM IPSUM</h1>
@@ -126,13 +126,6 @@ export default function Home () {
                     <div className="leftContentFive">
                         <h1 className="leftSectionHeaderFive">LOREM IPSUM <br></br>DOLOR SIT AMET</h1>
                         <div className='reactStars'>
-                            {/* <ReactStars
-                            count={5}
-                            value={5}
-                            edit={false}
-                            size={24}
-                            color1={'#f87216'} 
-                            color2={'#f87216'}/> */}
                         </div>
                         
                     </div>
@@ -140,7 +133,7 @@ export default function Home () {
                 <div className="rightSectionFive">
                         <Carousel />
                 </div>
-            </div> 
+            </div>  */}
             <div className='footer'>
                 <div className='footerContent'>
                     <h4>Follow Us:</h4>
