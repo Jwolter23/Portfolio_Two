@@ -14,7 +14,7 @@ export default function Home ({ myRef, myRef1, myRef2, handleClick3, handleClick
                         <button onClick={handleClick}className="aboutMeButton">About Me</button>
                         <button onClick={handleClick2}className="projectsButton">Projects</button>
                         <button onClick={handleClick3}className="connectButton">Connect</button>
-                        <button className="resumeButton">Resume</button>
+                        <a href='https://drive.google.com/file/d/1QJ3Vgx8vfy3NUdhghuxwlZHX6bB9nISk/view?usp=share_link' target='_blank'><button className="resumeButton">Resume</button></a>
                     </div>
                 </div>
                 <div className="welcomeContent">
