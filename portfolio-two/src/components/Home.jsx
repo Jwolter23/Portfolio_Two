@@ -1,7 +1,9 @@
 // import ReactStars from 'react-stars'
 import React from 'react'
 import Nav from './Nav'
-
+import { AiFillGithub } from 'react-icons/ai'
+import { AiFillLinkedin } from 'react-icons/ai'
+import { AiOutlineMail } from 'react-icons/ai'
 
 export default function Home ({ myRef, myRef1, myRef2, handleClick3, handleClick2, handleClick}) {
 
@@ -97,8 +99,9 @@ export default function Home ({ myRef, myRef1, myRef2, handleClick3, handleClick
                 <div className='footerContent'>
                     <h4 ref={myRef2}>Connect With Me:</h4>
                     <div className='socialsContainer'>
-                    <a href='https://twitter.com/roostergrin?lang=en' target='_blank' rel="noopener noreferrer"><div className='instagram'></div></a>
-                    <a href='https://www.facebook.com/RoosterGrin/' target='_blank' rel="noopener noreferrer"><div className='facebook'></div></a>
+                        <a href='https://github.com/Jwolter23' target='_blank'><div className='github'><AiFillGithub /></div></a>
+                        <a href='https://www.linkedin.com/in/jordan-wolter/' target='_blank'><div className='linkedin'><AiFillLinkedin /></div></a>
+                        <a href='mailto:jordanwolterbse@gmail.com' target='_blank'><div className='email'><AiOutlineMail /></div></a>
                     </div>
                 </div>
 
