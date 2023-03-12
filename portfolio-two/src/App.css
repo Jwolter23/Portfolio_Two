@@ -696,6 +696,7 @@ align-items: center;
     background-position: center;
     height: 20em;
     width: 100%;
+    order: 2;
   
   }
   
@@ -709,6 +710,7 @@ align-items: center;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    order: 1;
   }
   
   .leftSectionButtonTwoUpdate{
@@ -790,6 +792,7 @@ align-items: center;
     background-position: center;
     height: 20em;
     width: 100%;
+    order: 2;
   
   }
   
@@ -803,6 +806,7 @@ align-items: center;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    order: 1;
   }
   
   .leftSectionButtonFourUpdate{
