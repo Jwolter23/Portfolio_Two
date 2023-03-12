@@ -4,7 +4,7 @@
 }
 
 .welcomeScreen{
-  background-image: url('././../Assets/hero.jpg');
+  background-image: url('././../Assets/Huez.png');
   height: 100vh;
   width: 100vw;
   background-size: cover;
@@ -62,7 +62,6 @@
 .roosterLogo{
   display: flex;
   flex-direction: row;
-  background-image: url(../Assets/logo-white.svg);
   height: 0.5em;
   width: 3em;
   background-repeat: no-repeat;
