@@ -682,166 +682,142 @@ align-items: center;
 
 /* Section Two */
 @media (max-width: 767px) {
-  .sectionTwo {
-    grid-template-columns: 1fr 1fr; 
-    grid-template-rows: auto auto;
-    grid-template-areas: 'image image';
-    height: 16em; 
+  .sectionTwoUpdate {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 1em;
+    background-color: rgba(250,251,251,255);
   }
-
-  .leftSectionTwo {
-    align-items: flex-end; 
-    padding: 1em; 
+  
+  .rightSectionTwoUpdate {
+    background-image: url(../Assets/Instrument.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    width: 100%;
+  
   }
-
-.leftSectionHeaderTwo {
-  color: #7d4497;
-  font-size: 1.1em;
-  margin-bottom: -0.01em;
-}
-
-.leftSectionButtonTwo {
-  background-color: #f87119;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 0.2em;
-  padding: 1.1em;
-}
+  
+  .leftSectionTwoUpdate{
+    margin-bottom: 1em;
+  }
+  
+  .leftContentTwoUpdate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .leftSectionButtonTwoUpdate{
+    margin-top: 1em;
+    width: 100%;
+  }
+  
+  .leftSectionHeaderTwoUpdate{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .leftSectionBodyTwoUpdate{
+    font-size: 0.9em;
+  }
 }
 
 
 /* section three */
 @media (max-width: 768px) {
-  .sectionThree {
-    grid-template-columns: 1fr;
+  .sectionThreeUpdate {
+    display: flex;
+    flex-direction: column;
     height: auto;
-    margin: 1em 0;
+    padding: 1em;
+    background-color: rgba(250,251,251,255);
   }
-
-  .leftSectionThree {
-    justify-content: center;
+  
+  .rightSectionThreeUpdate {
+    background-image: url(../Assets/WolterFinance.png);
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    width: 100%;
+  
   }
-
-  .leftContentThree {
-    width: 80%;
-    margin-bottom: 2em;
-    
+  
+  .leftSectionThreeUpdate{
+    margin-bottom: 1em;
   }
-
-  .item1, .item2, .item3, .item4 {
-    margin: 0;
+  
+  .leftContentThreeUpdate{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
+  .leftSectionButtonThreeUpdate{
+    margin-top: 1em;
+    width: 100%;
+  }
+  
+  .leftSectionHeaderThreeUpdate{
+    font-size: 2em;
+    margin-bottom: 0.5em;
+  }
+  
+  .leftSectionBodyThreeUpdate{
+    font-size: 0.9em;
   }
 }
 
 /* Section Four */
 
 @media (max-width: 768px) {
-  .sectionFour {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto auto;
-    grid-template-areas: 
-      'image image';
+  .sectionFourUpdate {
+    display: flex;
+    flex-direction: column;
     height: auto;
+    padding: 1em;
+    background-color: rgba(250,251,251,255);
   }
-
-  .rightSectionFour {
-    order: 1;
+  
+  .rightSectionFourUpdate {
+    background-image: url(../Assets/MatrixTrivia.png);
+    background-size: cover;
+    background-position: center;
+    height: 20em;
+    width: 100%;
+  
   }
-
-  .rightContentFour {
-    width: 90%;
-    margin-top: 1em;
+  
+  .leftSectionFourUpdate{
     margin-bottom: 1em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    
   }
-
-  .rightSectionHeaderFour {
-    font-size: 1.5em;
-    text-align: center;
-  }
-
-  .rightSectionBodyFour {
+  
+  .leftContentFourUpdate{
     width: 100%;
-  }
-
-  .rightSectionButtonFour {
     display: flex;
-    justify-content: center;
-    text-decoration: none;
-    width: 90%;
-    margin-top: 0.5em;
-    font-size: 0.3em;
-    padding: 1.1em;
-    width: fit-content;
-  }
-}
-
-/* Section Five */
-@media (max-width: 768px) {
-  .sectionFive {
-    grid-template-columns: 1fr;
-    height: auto;
-  }
-
-  .leftSectionFive {
-    justify-content: center;
-  }
-
-  .leftContentFive {
-    width: 80%;
-    margin: 0 auto;
-  }
-
-  .leftSectionHeaderFive {
-    font-size: 2em;
-    text-align: center;
-  }
-
-  .rightSectionFive {
-    justify-content: center;
-  }
-
-  .carousel {
-    width: 90%;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
   }
-
-  .carouselContent {
-    width: 100%;
+  
+  .leftSectionButtonFourUpdate{
     margin-top: 1em;
-  }
-
-  .carouselAuthor {
-    text-align: center;
-    margin-bottom: -0.5em;
-  }
-
-  .carouselParagraph {
     width: 100%;
-    text-align: left;
-    padding: 0.5;
   }
-  .carouselButtons{
-    width: 5em;
-    display: flex;
-    justify-content: center;
+  
+  .leftSectionHeaderFourUpdate{
+    font-size: 2em;
+    margin-bottom: 0.5em;
   }
-  .buttons{
-    display: flex;
-    justify-content: space-around;
-    width: 20em;
-    margin-bottom: 0.3em;
-    margin-top: -0.2em;
-  }
-  .reactStars{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  
+  .leftSectionBodyFourUpdate{
+    font-size: 0.9em;
   }
 }
+
+
