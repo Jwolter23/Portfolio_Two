@@ -96,7 +96,7 @@
 
 
 .welcomeButton{
-  background-color: #ac5fd1;
+  background-color: rgb(67, 99, 117);
   color: white;
   font-size: 1em;
   font-weight: bold;
@@ -108,7 +108,7 @@
 .welcomeButton:hover{
   cursor: pointer;
   color: black;
-  box-shadow: -10px 5px 5px #ac5fd1;
+  box-shadow: -10px 5px 5px rgb(67, 99, 117);
 
 }
 
@@ -124,7 +124,7 @@
 
 .aboutMeTitle{
   font-size: 5em;
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   font-family: 'Playfair Display', serif;
 }
 
@@ -172,7 +172,7 @@ align-items: center;
 }
 
 .leftSectionButtonAbout{
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   text-decoration: none;
   border: none;
   padding: 0.5em;
@@ -183,7 +183,7 @@ align-items: center;
 
 .leftSectionButtonAbout:hover{
   cursor: pointer;
-  color: #ac5fd1;
+  color: rgb(67, 99, 117);
   transform: scale(1.1);
 }
 
@@ -192,7 +192,7 @@ align-items: center;
   margin: 0;
   margin-bottom: 0.1em;
   font-size: 3em;
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   font-family: 'Playfair Display', serif;
 }
 
@@ -212,7 +212,7 @@ align-items: center;
 
 .projectTitle{
   font-size: 5em;
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   font-family: 'Playfair Display', serif;
 }
 
@@ -251,7 +251,7 @@ align-items: center;
 }
 
 .leftSectionButton{
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   text-decoration: none;
   border: none;
   padding: 0.5em;
@@ -262,7 +262,7 @@ align-items: center;
 
 .leftSectionButton:hover{
   cursor: pointer;
-  color: #ac5fd1;
+  color: rgb(67, 99, 117);
   transform: scale(1.1);
 }
 
@@ -271,7 +271,7 @@ align-items: center;
   margin: 0;
   margin-bottom: 0.1em;
   font-size: 3em;
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   font-family: 'Playfair Display', serif;
 }
 
@@ -313,7 +313,7 @@ align-items: center;
 }
 
 .leftSectionButtonTwoUpdate{
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   text-decoration: none;
   border: none;
   padding: 0.5em;
@@ -324,7 +324,7 @@ align-items: center;
 
 .leftSectionButtonTwoUpdate:hover{
   cursor: pointer;
-  color: #ac5fd1;
+  color: rgb(67, 99, 117);
   transform: scale(1.1);
 }
 
@@ -333,7 +333,7 @@ align-items: center;
   margin: 0;
   margin-bottom: 0.1em;
   font-size: 3em;
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   font-family: 'Playfair Display', serif;
 }
 
@@ -375,7 +375,7 @@ align-items: center;
 }
 
 .leftSectionButtonThreeUpdate{
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   text-decoration: none;
   border: none;
   padding: 0.5em;
@@ -386,7 +386,7 @@ align-items: center;
 
 .leftSectionButtonThreeUpdate:hover{
   cursor: pointer;
-  color: #ac5fd1;
+  color: rgb(67, 99, 117);
   transform: scale(1.1);
 }
 
@@ -395,7 +395,7 @@ align-items: center;
   margin: 0;
   margin-bottom: 0.1em;
   font-size: 3em;
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   font-family: 'Playfair Display', serif;
 }
 
@@ -438,7 +438,7 @@ align-items: center;
 }
 
 .leftSectionButtonFourUpdate{
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   text-decoration: none;
   border: none;
   padding: 0.5em;
@@ -449,7 +449,7 @@ align-items: center;
 
 .leftSectionButtonFourUpdate:hover{
   cursor: pointer;
-  color: #ac5fd1;
+  color: rgb(67, 99, 117);
   transform: scale(1.1);
 }
 
@@ -458,7 +458,7 @@ align-items: center;
   margin: 0;
   margin-bottom: 0.1em;
   font-size: 3em;
-  color: #7d4497;
+  color: rgb(67, 99, 117);
   font-family: 'Playfair Display', serif;
 }
 
