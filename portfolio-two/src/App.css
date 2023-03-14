@@ -565,6 +565,7 @@ a {
   }
   .aboutMeButton, .projectsButton, .connectButton, .resumeButton{
     color: white;
+    font-size: 0.8em;
   }
   .welcomeScreen{
     height: 100%;
