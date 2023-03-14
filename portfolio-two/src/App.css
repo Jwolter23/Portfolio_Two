@@ -72,21 +72,6 @@
   cursor: pointer;
 }
 
-.roosterLogo{
-  display: flex;
-  flex-direction: row;
-  height: 0.5em;
-  width: 3em;
-  background-repeat: no-repeat;
-  font-size: 6em;
-  margin-left: 1.3em;
-  margin-top: 0.3em;
-  margin-bottom: -0.3em;
-  animation: fadeIn 5s;
-  animation-fill-mode: both;
-  animation-delay: 2s;
-}
-
 
 @keyframes fadeIn {
   0% { opacity: 0;}
@@ -222,7 +207,7 @@ align-items: center;
 .sectionOne {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  height: 60vh;
+  height: 65vh;
   padding: 0.5em 0em;
   background-color: rgb(246, 247, 255);
 }
@@ -284,7 +269,7 @@ align-items: center;
 .sectionTwoUpdate {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  height: 60vh;
+  height: 65vh;
   padding: 0.5em 0.3em;
   background-color: rgb(246, 247, 255);
 }
@@ -346,7 +331,7 @@ align-items: center;
 .sectionThreeUpdate {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
-  height: 60vh;
+  height: 65vh;
   padding: 0.5em 0.3em;
   background-color: rgb(246, 247, 255);
 }
@@ -409,7 +394,7 @@ align-items: center;
 .sectionFourUpdate {
   display: grid;
   grid-template-columns: 1.2fr 1fr;
-  height: 60vh;
+  height: 65vh;
   padding: 0.5em 0.3em;
   background-color: rgb(246, 247, 255);
 }
@@ -596,7 +581,6 @@ a {
   
   .welcomeText {
   height: auto;
- 
   display: flex;
   flex-direction: column;
   justify-content: center;
