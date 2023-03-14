@@ -65,6 +65,7 @@
   color: rgb(67, 99, 117);
   font-size: 1em;
   font-weight: bold;
+  font-family: 'Manrope', sans-serif;
 }
 
 .aboutMeButton:hover, .projectsButton:hover, .connectButton:hover, .resumeButton:hover {
