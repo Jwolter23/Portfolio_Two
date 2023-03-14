@@ -31,14 +31,14 @@
   height: 15em;
 }
 
-.welcomeTo{
+.myName{
     color: transparent;
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
     font-size: 5em;
     animation: fadeIn 5s;
 }
-.roosterGrin{
+.softwareDev{
   color: white;
   font-size: 4.5em;
   letter-spacing: 0.1em;
@@ -48,7 +48,7 @@
   animation-delay: 2s;
 }
 
-.roosterLogoBox{
+.navBox{
   width: 95vw;
   margin-top: 1em;
 }
@@ -568,7 +568,7 @@ a {
 /* Hero Section */
 
 @media screen and (max-width: 768px) {
-  .roosterLogoBox{
+  .navBox{
     display: flex;
     justify-content: center;
   }
@@ -604,11 +604,11 @@ a {
   width: 100%;
   }
   
-  .welcomeTo {
+  .myName {
   font-size: 3em;
   }
   
-  .roosterGrin {
+  .softwareDev {
   display: flex;
   justify-content: center;
   align-items: center;

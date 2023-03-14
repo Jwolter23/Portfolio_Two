@@ -11,7 +11,7 @@ export default function Home ({ myRef, myRef1, myRef2, handleClick3, handleClick
     return(
         <div className="wholeScreen">
             <div className="welcomeScreen">
-                <div className="roosterLogoBox">
+                <div className="navBox">
                     <div className='navBar'>
                         <button onClick={handleClick}className="aboutMeButton">About Me</button>
                         <button onClick={handleClick2}className="projectsButton">Projects</button>
@@ -22,8 +22,8 @@ export default function Home ({ myRef, myRef1, myRef2, handleClick3, handleClick
                 <div className="welcomeContent">
                     
                     <div className="welcomeText">
-                        <h1 className="welcomeTo">Jordan Wolter</h1>
-                        <h2 className="roosterGrin">Software Developer</h2>
+                        <h1 className="myName">Jordan Wolter</h1>
+                        <h2 className="softwareDev">Software Developer</h2>
                     </div>
                     <div className="welcomeButtonBox">
                         <a href='https://drive.google.com/file/d/1QJ3Vgx8vfy3NUdhghuxwlZHX6bB9nISk/view?usp=share_link' target='_blank' rel="noopener noreferrer"><button className="welcomeButton">Resume</button></a>
