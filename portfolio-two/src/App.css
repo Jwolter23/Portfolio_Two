@@ -577,6 +577,9 @@ a {
   top: 0;
   margin-top: 1em;
   }
+  .aboutMeButton, .projectsButton, .connectButton, .resumeButton{
+    color: white;
+  }
   .welcomeScreen{
     height: 100%;
     display: flex;
@@ -636,11 +639,14 @@ a {
 @media screen and (max-width: 768px) {
 
   /* about me */
+  .aboutMeDiv{
+    height: 20vh;
+  }
   .sectionAbout {
   display: flex;
   flex-direction: column;
   height: auto;
-  padding: 1em;
+  padding: 0em 1em 1em 1em;
   }
   
   .rightSectionAbout {
@@ -661,6 +667,9 @@ a {
   width: auto;
   padding: 1em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
   
   .leftSectionButtonAbout {
@@ -669,6 +678,10 @@ a {
   
   .aboutMeTitle {
   font-size: 3em;
+  }
+
+  .leftSectionHeaderAbout{
+    font-size: 2.2em;
   }
   
   }
@@ -696,7 +709,7 @@ a {
     flex-direction: column;
     height: auto;
     padding: 1em;
-    background-color: rgba(250,251,251,255);
+    background-color: rgb(246, 247, 255);
   }
   
   .rightSection {
@@ -743,7 +756,7 @@ a {
     flex-direction: column;
     height: auto;
     padding: 1em;
-    background-color: rgba(250,251,251,255);
+    background-color: rgb(246, 247, 255);
   }
   
   .rightSectionTwoUpdate {
@@ -792,7 +805,7 @@ a {
     flex-direction: column;
     height: auto;
     padding: 1em;
-    background-color: rgba(250,251,251,255);
+    background-color: rgb(246, 247, 255);
   }
   
   .rightSectionThreeUpdate {
@@ -839,7 +852,7 @@ a {
     flex-direction: column;
     height: auto;
     padding: 1em;
-    background-color: rgba(250,251,251,255);
+    background-color: rgb(246, 247, 255);
   }
   
   .rightSectionFourUpdate {
