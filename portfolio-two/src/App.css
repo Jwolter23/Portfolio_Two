@@ -183,7 +183,7 @@ align-items: center;
 
 .leftSectionButtonAbout:hover{
   cursor: pointer;
-  color: rgb(67, 99, 117);
+  color: rgb(79, 157, 203);
   transform: scale(1.1);
 }
 
@@ -262,7 +262,7 @@ align-items: center;
 
 .leftSectionButton:hover{
   cursor: pointer;
-  color: rgb(67, 99, 117);
+  color: rgb(79, 157, 203);
   transform: scale(1.1);
 }
 
@@ -324,7 +324,7 @@ align-items: center;
 
 .leftSectionButtonTwoUpdate:hover{
   cursor: pointer;
-  color: rgb(67, 99, 117);
+  color: rgb(79, 157, 203);
   transform: scale(1.1);
 }
 
@@ -386,7 +386,7 @@ align-items: center;
 
 .leftSectionButtonThreeUpdate:hover{
   cursor: pointer;
-  color: rgb(67, 99, 117);
+  color: rgb(79, 157, 203);
   transform: scale(1.1);
 }
 
@@ -449,7 +449,7 @@ align-items: center;
 
 .leftSectionButtonFourUpdate:hover{
   cursor: pointer;
-  color: rgb(67, 99, 117);
+  color: rgb(79, 157, 203);
   transform: scale(1.1);
 }
 
