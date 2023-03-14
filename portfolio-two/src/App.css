@@ -59,6 +59,19 @@
   gap: 0.5em;
 }
 
+.aboutMeButton, .projectsButton, .connectButton, .resumeButton {
+  background: none;
+  border: none;
+  color: rgb(67, 99, 117);
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.aboutMeButton:hover, .projectsButton:hover, .connectButton:hover, .resumeButton:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .roosterLogo{
   display: flex;
   flex-direction: row;
