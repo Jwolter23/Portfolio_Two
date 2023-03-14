@@ -1,6 +1,4 @@
-// import ReactStars from 'react-stars'
 import React from 'react'
-import Nav from './Nav'
 import { AiFillGithub } from 'react-icons/ai'
 import { AiFillLinkedin } from 'react-icons/ai'
 import { AiOutlineMail } from 'react-icons/ai'
