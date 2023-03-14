@@ -596,7 +596,7 @@ a {
   
   .welcomeText {
   height: auto;
-  margin-top: 2em;
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -606,6 +606,8 @@ a {
   
   .myName {
   font-size: 3em;
+  margin-bottom: 0;
+  margin-top: 0;
   }
   
   .softwareDev {
@@ -614,16 +616,6 @@ a {
   align-items: center;
   font-size: 2em;
   margin-top: 0.5em;
-  }
-  
-  .roosterLogo {
-  font-size: 4em;
-  margin-left: 0.5em;
-  margin-top: 0.5em;
-  margin-bottom: -0.5em;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   }
   
   .welcomeButton {
